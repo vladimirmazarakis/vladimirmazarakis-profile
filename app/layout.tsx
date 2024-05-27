@@ -36,7 +36,7 @@ export default function RootLayout({
       <head />
       <body
         className={clsx(
-          "min-h-screen font-sans antialiased bg-gray-200",
+          "min-h-screen font-sans antialiased bg-gray-200 relative",
           fontSans.variable,
         )}
       >
@@ -45,7 +45,8 @@ export default function RootLayout({
             <main className="min-h-screen">
               {children}
             </main>
-            <footer>
+            <footer className='absolute bottom-0 md:pr-1 md:mb-1 w-full md:text-right text-center'>
+              You can find this page's code <Link href='https://github.com/vladimirmazarakis/vladimirmazarakis-profile'>here</Link>.
             </footer>
           </div>
         </Providers>

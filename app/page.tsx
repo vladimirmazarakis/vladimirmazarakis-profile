@@ -11,7 +11,7 @@ import Info from "@/app//ui/home/info";
 export default function Home() {
   return (
     <div className='min-h-screen w-full md:w-full'>
-      <div className="m-auto w-5/6 md:w-2/3 min-h-screen py-4 sm:my-0 flex flex-row justify-content items-center">
+      <div className="m-auto w-5/6 md:w-2/3 min-h-screen py-8 sm:my-0 flex flex-row justify-content items-center">
         <div className={block({color: 'black'})}>
           <MainBlock>
             <Info />
