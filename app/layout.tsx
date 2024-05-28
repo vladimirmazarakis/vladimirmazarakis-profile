@@ -46,7 +46,7 @@ export default function RootLayout({
               {children}
             </main>
             <footer className='absolute bottom-0 md:pr-1 md:mb-1 w-full md:text-right text-center'>
-              You can find this page's code <Link href='https://github.com/vladimirmazarakis/vladimirmazarakis-profile'>here</Link>.
+              You can find this page&#39;s code <Link href='https://github.com/vladimirmazarakis/vladimirmazarakis-profile'>here</Link>.
             </footer>
           </div>
         </Providers>
