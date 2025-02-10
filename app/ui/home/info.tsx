@@ -20,7 +20,7 @@ export default function Info(){
             alt='Vladimiros Mazarakis selfie'
             src={mySelfPic.src}/>
             <div className="flex flex-col justify-center items-center gap-y-3 text-center">
-                <p className='text-gray-100  text-sm lg:text-base font-extralight'>.NET FULL-STACK SOFTWARE</p>
+                <p className='text-gray-100  text-sm lg:text-base font-extralight'>.NET FULL-STACK SOFTWARE DEVELOPER</p>
                 <h1 className={`text-white text-4xl lg:text-5xl`}>Vladimiros Mazarakis</h1>
                 <p className='text-white font-light text-sm lg:text-base'>Developing cool projects :{")"}</p>
             </div>
