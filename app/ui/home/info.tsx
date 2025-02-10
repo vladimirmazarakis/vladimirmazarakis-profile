@@ -20,9 +20,9 @@ export default function Info(){
             alt='Vladimiros Mazarakis selfie'
             src={mySelfPic.src}/>
             <div className="flex flex-col justify-center items-center gap-y-3 text-center">
-                <p className='text-gray-100  text-sm lg:text-base font-extralight'>FULL-STACK WEB DEVELOPER AND DESIGNER</p>
+                <p className='text-gray-100  text-sm lg:text-base font-extralight'>.NET FULL-STACK SOFTWARE</p>
                 <h1 className={`text-white text-4xl lg:text-5xl`}>Vladimiros Mazarakis</h1>
-                <p className='text-white font-light text-sm lg:text-base'>I am designing/developing and promoting websites for startups.</p>
+                <p className='text-white font-light text-sm lg:text-base'>Developing cool projects :{")"}</p>
             </div>
             <div className="flex flex-row justify-center flex-wrap gap-3 w-full sm:w-2/3">
                 <SocialButton ariaLabel='My email address' className='bg-green-500' link='mailto:vladimirmazarakis@hotmail.com'>
